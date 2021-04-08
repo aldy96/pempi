@@ -1,7 +1,10 @@
 import React from 'react';
+import NavBar from './component/NavBar';
 
 export default function App() {
     return(
-        <div>asdvsgsdvsa</div>
+        <div>
+            <NavBar/>
+        </div>
     );
 };
