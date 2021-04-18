@@ -1,3 +1,11 @@
+.ContNav{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
 .navigasi{
     box-sizing: border-box;
     display: flex;
@@ -6,10 +14,11 @@
     align-items: center;
     color: rgb(0, 0, 0);
     overflow: hidden;
-    position: fixed;
+    position: absolute;
+
     z-index: 1;
     width: 100vw;
-  
+   
    
    
 }
@@ -21,11 +30,11 @@
     align-items: center;
     padding: 10px;
     height: 100%;
-    margin-left: 10px;
-    margin-top: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 100%;
-    -webkit-border-radius: 100%;
+    -webkit-border-radius: 0;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
@@ -40,7 +49,7 @@
 .navigasi div:nth-child(2){
     position: relative;
     /* border: black 2px solid; */
-    right: 40px;
+    right: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -48,9 +57,9 @@
     height: 100%;
     width: 50%;
     margin-left: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 25px;
-    -webkit-border-radius: 25px;
+    -webkit-border-radius: 0px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
@@ -67,7 +76,7 @@
 
 .pilih{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -75,6 +84,8 @@
 }
 .pilih:hover {
     opacity: 1;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 

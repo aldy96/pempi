@@ -1,6 +1,47 @@
 #About{
     height: 100vh;
     width: 100vw;
-    border: hotpink 2px solid;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* slide ini otomatis merubah style pada slide di Carousel */
+.slide{
+    width: 100vw;
+    height: 80vh;
+    background-color:	#4479e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.isiSlide{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textSlide{
+    width: 40%;
+    padding: 2vw;
+    color: white;
+    text-align: justify;
+}
+
+
+
+.fotoSlide{
+    width: 50%;
 }

@@ -1,14 +1,15 @@
 import React from 'react';
 import '../CSS/NavBar.css';
 import Logo from '../img/logo.png'
+import '../CSS/Animation.css'
 
 
 export default function NavBar() { 
     return(
-        <div>
+        <div >
             <nav class="navigasi">
-                <div ><img src={Logo} alt="logo" class="logo"/></div>
-                <div>
+                <div class='fadeInLeft' ><img src={Logo} alt="logo" class="logo"/></div>
+                <div class='fadeInDown'>
                     <a href="https://www.w3schools.com" class='pilih'>News</a >
                     <a href="#About" class='pilih'>About Us</a >
                     <a  class='pilih'>Career</a >
@@ -18,3 +19,5 @@ export default function NavBar() {
         </div>
     )
  }
+
+ 

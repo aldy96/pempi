@@ -9,10 +9,10 @@ import About from '../part/About';
 export default function Utama(){
     return (
         <div>
-            {/* <NavBar/>
+            <NavBar/>
             <Page1/>
-            <About/> */}
             <Pidato/>
+            <About/>
         </div>
     )
 
