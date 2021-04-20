@@ -29,18 +29,26 @@ const useStyle = makeStyles({
 
 })
 
+let isi = '20';
+
 export default function Pidato() {
     const classes = useStyle() 
     const { ref, inView, entry } = useInView({
         threshold: 0.3,
+        triggerOnce: true
     });
+
+    let isi = '20';
+    
+    if (inView) {
+        isi = <FotoPidato/>;
+       } 
+       
 
     return(
         <div className={classes.root} ref={ref}>
-            {inView ?
-                <FotoPidato/> :
-                ""
-            }
+            {/* menggunakan IF */}
+            {isi}
         </div>
     )
 }

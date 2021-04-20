@@ -25,23 +25,31 @@
 
 .latar div{
     position: absolute;
-
-    top: 70%;
-    left: 5%;
+    background-color:rgba(0, 0, 0, 0.3);
+   bottom: 0%;
+    left: 0%;
+    width: 100vw;
+    padding-left: 5%;
 }
 
+
+
 .latar span{
+    box-sizing: content-box;
+    padding: 0%;
+
     font-weight: bold;
     color: white;
     font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
 
 }
 
 .latar p {
 
+    font-size: 25px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
 }

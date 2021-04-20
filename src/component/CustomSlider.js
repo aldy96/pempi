@@ -2,7 +2,14 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
 import '../CSS/About.css'
+
+// foto
 import foto from '../img/pidato.jpg'
+import pelabuhan from '../img/pelabuhan.jpg';
+import member from '../img/member.jpg';
+import kargo from '../img/kargo.jpg';
+import kursus from '../img/kursus.webp'
+import tujuan from '../img/tujuan.jpg'
 
 export default function Slidernya(){
   return(
@@ -22,7 +29,7 @@ export default function Slidernya(){
           <div class='fotoSlide'>
             <img
               className="d-block w-100"
-              src={foto}
+              src={pelabuhan}
               alt="First slide"
             />
           </div>
@@ -35,18 +42,18 @@ export default function Slidernya(){
         <div class='textSlide'>
           <h3>Tujuan</h3>
           <p>
-              1.	Mengembangkan dan Mempertahankan standar untuk manajer dan eksekutif pada industri maritim
-          <br/>2.	Memberikan layanan informasi kepada anggota
-          <br/>3.	Mengembangkan peluang jaringan bagi anggota
-          <br/>4.	Membangun anggota dalam pengembangan pribadi melalui program pendidikan dan pelatihan
-          <br/>5.	Menyediakan bahan penelitian dan kajian untuk perencanaan strategis, pengembangan bisnis, dan proses manajemen
+                1.	Mengembangkan dan Mempertahankan standar untuk manajer dan eksekutif pada industri maritim
+          <br/> 2.	Memberikan layanan informasi kepada anggota
+          <br/> 3.	Mengembangkan peluang jaringan bagi anggota
+          <br/> 4.	Membangun anggota dalam pengembangan pribadi melalui program pendidikan dan pelatihan
+          <br/> 5.	Menyediakan bahan penelitian dan kajian untuk perencanaan strategis, pengembangan bisnis, dan proses manajemen
           </p>
           </div>
           
           <div class='fotoSlide'>
             <img
               className="d-block w-100"
-              src={foto}
+              src={tujuan}
               alt="First slide"
             />
           </div>
@@ -66,7 +73,7 @@ export default function Slidernya(){
           <div class='fotoSlide'>
             <img
               className="d-block w-100"
-              src={foto}
+              src={kursus}
               alt="First slide"
             />
           </div>
@@ -86,7 +93,7 @@ export default function Slidernya(){
           <div class='fotoSlide'>
             <img
               className="d-block w-100"
-              src={foto}
+              src={kargo}
               alt="First slide"
             />
           </div>
@@ -106,7 +113,7 @@ export default function Slidernya(){
           <div class='fotoSlide'>
             <img
               className="d-block w-100"
-              src={foto}
+              src={member}
               alt="First slide"
             />
           </div>

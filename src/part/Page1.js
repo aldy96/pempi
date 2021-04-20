@@ -21,8 +21,11 @@ export default function Page1() {
             </video>
            <div class='latar'>
                <div class='fadeInLeft'>
+                  
                     <span>PEMPI </span>
                     <p>"-Menyongsong Kedigdayaan Pelabuhan dan Maritim Indonesia-"</p>
+                 
+                 
                </div>
            </div>
         </section>

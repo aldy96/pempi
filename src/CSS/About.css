@@ -12,6 +12,7 @@
 
 /* slide ini otomatis merubah style pada slide di Carousel */
 .slide{
+    box-sizing: border-box;
     width: 100vw;
     height: 80vh;
     background-color:	#4479e1;
@@ -19,6 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
 
 }
 
@@ -43,5 +45,8 @@
 
 
 .fotoSlide{
-    width: 50%;
+
+    width: 40%;
+    height: 400px;
+  
 }

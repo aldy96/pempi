@@ -7,6 +7,7 @@ import { useInView } from 'react-intersection-observer';
 export default function About() { 
     const { ref, inView, entry } = useInView({
         threshold: 0.3,
+        triggerOnce: true
     });
     return(
         <section id="About" ref={ref}>
